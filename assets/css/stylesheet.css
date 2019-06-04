@@ -24,8 +24,8 @@ h1 {
 }
 
 h2 {
-    text-align: center;
     font-size: 30px;
+    text-align: center;
 }
 
 .languages{
@@ -45,13 +45,21 @@ h2 {
 
 .nav-link{
     color: #000;
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
 }
 
-.fa fa-linkedin-square{
-    padding-top: 5px;
-    font-size: 36px;
+.nav-link:hover{
+    top: -10px;
+}
+
+.linkedinLogo{
+    height: 35px;
+    width: 30px;
+    padding-bottom: 5px;
 }
 
 /*cards*/
@@ -74,4 +82,8 @@ h2 {
     font-size: 20px;
 }
 
+/*contact form*/
+.contactForm{
+    text-align: center;
+}
 
