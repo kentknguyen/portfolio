@@ -28,9 +28,16 @@ h2 {
     text-align: center;
 }
 
-.languages{
-    width: 120px;
+.bashLogo{
+    width: 75px;
     height: 75px;
+    margin: 0px 15px 40px 15px;
+}
+
+.sqlLogo{
+    width: 100px;
+    height: 70px;
+    margin: 0px 15px 40px 15px;
 }
 
 /*nav*/
@@ -64,11 +71,13 @@ h2 {
 
 /*cards*/
 
-.card {
-    display: flex;
+.card-deck{
+        display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
     justify-content: space-between;
+    padding: 15px;
+
 }
 
 .card-img-top {
