@@ -14,7 +14,7 @@
 /*body*/
 
 body {
-    padding-top: 100px;
+    padding-top: 130px;
     background-color: #2CDA9D;
 }
 
@@ -101,6 +101,7 @@ h2 {
 .card-text {
     font-size: 20px;
     color: #fff;
+    text-align: left;
 }
 
 .card-link{
