@@ -4,6 +4,9 @@
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {}
 
+@media only screen and (min-width: 1200px) and (max-width: 1799px) {}
+
+
 /*presets*/
 * {
     box-sizing: border-box;
@@ -14,7 +17,7 @@
 /*body*/
 
 body {
-    padding-top: 130px;
+    padding-top: 140px;
     background-color: #2CDA9D;
 }
 
@@ -71,22 +74,26 @@ h2 {
 }
 
 /*cards*/
-
 .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: auto;
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
     justify-content: space-between;
     padding: 50px;
     background-color: #564D65;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;
 }
 
 .card {
     background-color: #3E8989;
 }
 
-.cardInfo{
+.cardHeader{
     color: #fff;
+    background-color: #564D65;
+    padding: 1px;
+    margin: 0px;
 }
 
 .card-img-top {
