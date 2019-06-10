@@ -15,7 +15,7 @@
 
 body {
     padding-top: 100px;
-    background-color: #D5D5D5;
+    background-color: #2CDA9D;
 }
 
 h1 {
@@ -29,29 +29,29 @@ h2 {
     text-align: center;
 }
 
-.bashLogo{
+.bashLogo {
     width: 75px;
     height: 75px;
     margin: 0px 15px 40px 15px;
 }
 
-.sqlLogo{
+.sqlLogo {
     width: 100px;
     height: 70px;
     margin: 0px 15px 40px 15px;
 }
 
 /*nav*/
-.navbar{
-    background-color: #9099A2;
+.navbar {
+    background-color: #1A181B;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: #000;
     font-size: 30px;
 }
 
-.nav-link{
+.nav-link {
     color: #000;
     padding-top: 10px;
     font-size: 30px;
@@ -60,25 +60,34 @@ h2 {
     transition: top ease 0.5s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     top: -10px;
 }
 
-.linkedinLogo{
-    height: 35px;
+.linkedinLogo {
+    height: 30px;
     width: 30px;
     padding-bottom: 5px;
 }
 
 /*cards*/
 
-.card-deck{
-        display: flex;
+.card-deck {
+    display: flex;
     flex-wrap: wrap;
     flex-basis: auto;
     justify-content: space-between;
-    padding: 15px;
+    padding: 50px;
+    background-color: #564D65;
+}
 
+.card {
+    background-color: #3E8989;
+}
+
+.cardInfo{
+    color: #fff;
+    padding-bottom: 30px;
 }
 
 .card-img-top {
@@ -86,15 +95,20 @@ h2 {
     width: 300px;
     display: block;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 .card-text {
     font-size: 20px;
+    color: #fff;
+}
+
+.card-link{
+    color: #05F140;
+    font-size: 25px;
 }
 
 /*contact form*/
-.contactForm{
+.contactForm {
     text-align: center;
 }
-
-
