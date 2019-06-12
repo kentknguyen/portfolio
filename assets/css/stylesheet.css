@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap');
 
+/*
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : portrait) {}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {}
+*/
 
 /*presets*/
 * {
@@ -74,12 +76,13 @@ h2 {
 .card-deck {
     justify-content: space-between;
     padding: 50px;
+    margin: 0px;
     background-color: #564D65;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 1rem;
 }
-
+ 
 .card {
     background-color: #3E8989;
 }
